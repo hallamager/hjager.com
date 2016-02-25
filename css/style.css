@@ -494,12 +494,13 @@ body {
 	background-image: url('../images/zoom.png');
 	background-position: center center;
 	background-repeat: no-repeat;
-	height: 100px;
+	height: 150px;
 	left: 0;
 	position: absolute;
 	top: 0;
 	width: 100%;
 	z-index: 999;
+    margin-top: -75px;
 }
 
 #arrows {
@@ -570,9 +571,13 @@ body {
 .portfolio-item{
 margin-bottom: 30px;
     margin-top: 30px;
+    
 }
 .portfolio-item .hover-bg{
-height: 226px;
-overflow: hidden;
-position: relative;
+    height: 226px;
+    overflow: hidden;
+    position: relative;
+
 }
+
+
